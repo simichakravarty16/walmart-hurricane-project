@@ -1,1 +1,1 @@
-# ds2002-walmart-midterm
+# walmart-hurricane-project
