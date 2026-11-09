@@ -68,7 +68,7 @@ walmart-hurricane-project/
 ### File Descriptions
 
 | File | Format | Description |
-|---|---|
+|---|---|---|
 | `DS2002_Midterm_Project_Brief.md` | Markdown | Original project instructions and requirements |
 | `Walmart Case.pdf` | PDF | Background information and case study |
 | `walmart_transactions.csv` | CSV | Transaction-level POS records |
