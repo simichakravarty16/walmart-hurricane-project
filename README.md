@@ -67,16 +67,16 @@ walmart-hurricane-project/
 
 ### File Descriptions
 
-| File | Description |
+| File | Format | Description |
 |---|---|
-| `DS2002_Midterm_Project_Brief.md` | Original project instructions and requirements |
-| `Walmart Case.pdf` | Background information and case study |
-| `walmart_transactions.csv` | Transaction-level POS records |
-| `store_locations.csv` | Florida Walmart store metadata |
-| `product_catalog.csv` | Product and SKU reference information |
-| `distribution_centers.csv` | Distribution center information |
-| `inventory_and_sales.db` | SQLite database containing daily sales summaries and inventory levels |
-| `team_notebook.ipynb` | Main Jupyter Notebook containing data cleaning, API integration, analysis, visualizations, and findings |  
+| `DS2002_Midterm_Project_Brief.md` | Markdown | Original project instructions and requirements |
+| `Walmart Case.pdf` | PDF | Background information and case study |
+| `walmart_transactions.csv` | CSV | Transaction-level POS records |
+| `store_locations.csv` | CSV | Florida Walmart store metadata |
+| `product_catalog.csv` | CSV | Product and SKU reference information |
+| `distribution_centers.csv` | CSV | Distribution center information |
+| `inventory_and_sales.db` | SQLite | SQLite database containing daily sales summaries and inventory levels |
+| `team_notebook.ipynb` |Jupyter Notebook | Main Jupyter Notebook containing data cleaning, API integration, analysis, visualizations, and findings |  
 
 ## How to Run
 1. Clone or download this repository.
