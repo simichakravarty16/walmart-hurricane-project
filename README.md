@@ -6,11 +6,26 @@ This project investigates how Hurricane Helene impacted transaction patterns and
 Our goal was to identify the product categories that experienced the greatest increases in demand during surge periods, investigated how weather conditions influenced purchasing behaviors, and evaluated whether sales increases are the result of genuine demand or data-quality issues. In order to do this, we needed to clean the data by standardizing SKUs and category names, as well as join weather data using an API call.
 
 ## Analysis Questions
-- Question 1: Demand Surge Identification --> Which product categories experienced the greatest sales surge in the 7 days before hurricane landfall compared to the prior baseline period? Quantify the percentage increase and visualize the daily trend for the top 5 categories.
-- Question 2: The Pop-Tarts Effect (SKU Consolidation) --> After standardizing all Pop-Tart SKU variants into a single product, what is the true daily sales volume? How does the uncleaned (fragmented) view compare to the cleaned (consolidated) view? What business decisions would differ between the two views?
-- Question 3: Weather Correlation Analysis --> Using weather data pulled from your chosen free API, how do specific weather indicators (wind speed, precipitation, barometric pressure) correlate with daily sales volume across categories? Is there a detectable lag between weather severity escalation and purchasing spikes?
-- Question 4: Store-Level Geographic Patterns --> Do all Florida store locations experience the same surge patterns, or do stores closer to the predicted hurricane path show earlier and larger spikes? Identify any stores that appear to be outliers.
-- Question 5: Signal vs. Artifact — The Board Games Investigation --> The board games/entertainment category shows a +250% sales increase. Using the SQLite inventory and sales database, investigate whether this is a genuine demand signal or a data artifact (e.g., SKU miscoding, category lumping, inventory reporting lag). Present your evidence and make a recommendation: should Walmart stock extra board games for the next storm?
+This project investigates five key questions surrounding Walmart's sales and supply chain dynamics before Hurricane Helene.
+
+| # | Analysis Question | Focus |
+|---|---|---|
+| 1 | **Demand Surge Identification** | Identify the five product categories with the greatest sales increases during the seven days preceding hurricane landfall. Quantify percentage changes and visualize daily sales trends. |
+| 2 | **The Pop-Tarts Effect (SKU Consolidation)** | Consolidate fragmented Pop-Tart SKUs to determine true daily sales volume and evaluate how SKU standardization changes demand estimates and business decisions. |
+| 3 | **Weather Correlation Analysis** | Examine relationships between wind speed, precipitation, barometric pressure, and daily sales. Investigate potential time lags between weather escalation and purchasing spikes. |
+| 4 | **Store-Level Geographic Patterns** | Compare sales surges across Florida Walmart locations to determine whether proximity to the predicted hurricane path influences purchasing behavior. Identify geographic outliers. |
+| 5 | **Signal vs. Artifact: Board Games Investigation** | Use SQLite inventory and sales records to investigate the reported 250% increase in entertainment sales, distinguish genuine demand from data artifacts, and recommend inventory adjustments. |
+
+## Reflection Questions
+We also answered these reflection questions to evaluate our analyses and teamwork throughout this project.
+
+| # | Reflection Question | Focus |
+|---|---|---|
+| 1 | **Data Quality Impact** | Describe a specific data quality issue encountered in the supplied data, explain how the cleaning decision affected the analysis, and consider what might have happened if the issue had gone unnoticed. |
+| 2 | **ETL Trade-offs** | Examine one decision involving SKU standardization, missing timestamps, or weather data joins. Consider an alternative approach and explain how it might have changed the results. |
+| 3 | **Pipeline Trust** | Evaluate the Walmart CDO's argument that the greatest risk lies in the data pipeline rather than the model. Discuss whether you agree and identify the most fragile part of your team's pipeline. |
+| 4 | **Business vs. Data** | Reflect on the board game investigation (Question 5), explaining how your team balanced statistical evidence from imperfect data against potential business risks when making its recommendation. |
+| 5 | **Team Collaboration** | Describe how your team divided responsibilities, identify the most valuable skill each member contributed, and discuss what your team would approach differently with another week to work. |
 
 ## Data Sources
 The analysis incorporates the following datasets:
