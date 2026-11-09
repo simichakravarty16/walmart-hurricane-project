@@ -40,8 +40,11 @@ The analysis incorporates the following datasets:
 ```text
 walmart-hurricane-project/
 │
-├── DS2002_Midterm_Project_Brief.md
+├── README.md
+├── CHARTER.md
 ├── Walmart Case.pdf
+├── DS2002_Midterm_Project_Brief.md
+├── Midterm Project Presentation.pptx
 │
 ├── data/
 │   ├── walmart_transactions.csv
@@ -54,7 +57,6 @@ walmart-hurricane-project/
     └── team_notebook.ipynb
     └── 2026-10-23 — Midterm Checkpoint — Lab.ipynb
     └── 2026-10-30 — Midterm Progress — Lab.ipynb
-    │
     └── scratch/
         └── 2026-10-19 — Midterm Kickoff and Team Formation — Lecture.ipynb
         └── 2026-10-21 — Weather API Join — Studio.ipynb
