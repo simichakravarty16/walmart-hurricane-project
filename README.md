@@ -1,1 +1,46 @@
 # walmart-hurricane-project
+
+## Project Overview
+This project investigates how Hurricane Helene impacted transaction patterns and consumer behavior across various Walmart locations in Florida. Using transaction records, product catalog information, store locations, inventory data, and historical weather data, we examine changes in purchasing before and during the hurricane.
+
+Our goal was to identify the product categories that experienced the greatest increases in demand during surge periods, investigated how weather conditions influenced purchasing behaviors, and evaluated whether sales increases are the result of genuine demand or data-quality issues. In order to do this, we needed to clean the data by standardizing SKUs and category names, as well as join weather data using an API call.
+
+## Analysis Questions
+- Question 1: Demand Surge Identification --> Which product categories experienced the greatest sales surge in the 7 days before hurricane landfall compared to the prior baseline period? Quantify the percentage increase and visualize the daily trend for the top 5 categories.
+- Question 2: The Pop-Tarts Effect (SKU Consolidation) --> After standardizing all Pop-Tart SKU variants into a single product, what is the true daily sales volume? How does the uncleaned (fragmented) view compare to the cleaned (consolidated) view? What business decisions would differ between the two views?
+- Question 3: Weather Correlation Analysis --> Using weather data pulled from your chosen free API, how do specific weather indicators (wind speed, precipitation, barometric pressure) correlate with daily sales volume across categories? Is there a detectable lag between weather severity escalation and purchasing spikes?
+- Question 4: Store-Level Geographic Patterns --> Do all Florida store locations experience the same surge patterns, or do stores closer to the predicted hurricane path show earlier and larger spikes? Identify any stores that appear to be outliers.
+- Question 5: Signal vs. Artifact — The Board Games Investigation --> The board games/entertainment category shows a +250% sales increase. Using the SQLite inventory and sales database, investigate whether this is a genuine demand signal or a data artifact (e.g., SKU miscoding, category lumping, inventory reporting lag). Present your evidence and make a recommendation: should Walmart stock extra board games for the next storm?
+
+## Data Sources
+The analysis incorporates the following datasets:
+- Walmart Transactions: Individual transaction records containing timestamps, product identifiers, quantities, prices, and store IDs.
+- Product Catalog: Product information, including SKUs, product names, categories, suppliers, and package sizes.
+- Store Locations: Geographic and regional information for Walmart stores across Florida.
+- Distribution Centers: Distribution center information, including surge capacity and shipping costs.
+- Inventory and Sales Database: SQLite database containing inventory records and daily sales summaries.
+- Historical Weather Data: Daily precipitation, maximum wind speed, and mean sea-level pressure retrieved using the Open-Meteo Historical Weather API.
+
+## Repository Structure
+walmart-hurricane-project/
+├── DS2002_Midterm_Project_Brief.md    
+├── Walmart Case.pdf                  
+├── data/
+│   ├── walmart_transactions.csv       <- ~25,000 messy POS records
+│   ├── store_locations.csv            <- Florida store metadata
+│   ├── product_catalog.csv            <- Product/SKU reference
+│   ├── distribution_centers.csv       <- Distribution center info
+│   └── inventory_and_sales.db         <- SQLite: daily_sales_summary + inventory_levels
+└── notebooks/
+    └── team_notebook.ipynb     
+
+## How to Run
+1. Clone or download this repository
+2. Open team_notebook.ipynb in Google Colab or a local Jupyter environment
+3. Upload the required datasets (distribution_centers.csv, inventory_and_sales.db, product_catalog.csv, store_locations.csv, walmart_transactions.csv) to the appropriate data dictionary
+4. Run the notebook cells sequentially to see the data-cleaning pipeline, weather integration, analyses, reflections, and visualizations
+
+Note: Historical weather data is retrieved from Open-Meteo API, so an internet connection is required
+
+## Contributors
+Simi Chakravarty and Xiangyu Shi
