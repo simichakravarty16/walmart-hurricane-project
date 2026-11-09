@@ -70,6 +70,7 @@ walmart-hurricane-project/
 | File | Format | Description |
 |---|---|---|
 | `DS2002_Midterm_Project_Brief.md` | Markdown | Original project instructions and requirements |
+| `CHARTER.md` | Markdown | Team members, project goals, team member roles |
 | `Walmart Case.pdf` | PDF | Background information and case study |
 | `walmart_transactions.csv` | CSV | Transaction-level POS records |
 | `store_locations.csv` | CSV | Florida Walmart store metadata |
