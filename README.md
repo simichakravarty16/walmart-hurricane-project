@@ -52,6 +52,15 @@ walmart-hurricane-project/
 │
 └── notebooks/
     └── team_notebook.ipynb
+    └── 2026-10-23 — Midterm Checkpoint — Lab.ipynb
+    └── 2026-10-30 — Midterm Progress — Lab.ipynb
+    │
+    └── scratch/
+        └── 2026-10-19 — Midterm Kickoff and Team Formation — Lecture.ipynb
+        └── 2026-10-21 — Weather API Join — Studio.ipynb
+        └── 2026-10-26 — Midterm Clinic Cleaning and Joins — Lecture.ipynb
+        └── 2026-10-28 — Midterm Clinic Analysis and Charts — Studio.ipynb
+        └── 2026-11-04 — Reflection What Broke What Mattered — Studio.ipynb
 ```
 
 ### File Descriptions
