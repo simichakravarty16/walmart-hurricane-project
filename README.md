@@ -37,6 +37,7 @@ walmart-hurricane-project/
 │
 └── notebooks/
     └── team_notebook.ipynb
+```
 
 ### File Descriptions
 
@@ -52,10 +53,11 @@ walmart-hurricane-project/
 | `team_notebook.ipynb` | Main Jupyter Notebook containing data cleaning, API integration, analysis, visualizations, and findings |  
 
 ## How to Run
-1. Clone or download this repository
-2. Open team_notebook.ipynb in Google Colab or a local Jupyter environment
-3. Upload the required datasets (distribution_centers.csv, inventory_and_sales.db, product_catalog.csv, store_locations.csv, walmart_transactions.csv) to the appropriate data dictionary
-4. Run the notebook cells sequentially to see the data-cleaning pipeline, weather integration, analyses, reflections, and visualizations
+1. Clone or download this repository.
+2. Open `notebooks/team_notebook.ipynb` in Google Colab or Jupyter Notebook.
+3. Ensure the `data/` directory is accessible to the notebook.
+4. Install the required Python libraries if they are not already available.
+5. Run the notebook cells sequentially to reproduce the data-cleaning process, weather data integration, statistical analyses, and visualizations.
 
 Note: Historical weather data is retrieved from Open-Meteo API, so an internet connection is required
 
