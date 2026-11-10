@@ -69,15 +69,19 @@ walmart-hurricane-project/
 
 | File | Format | Description |
 |---|---|---|
-| `DS2002_Midterm_Project_Brief.md` | Markdown | Original project instructions and requirements |
-| `CHARTER.md` | Markdown | Team members, project goals, team member roles |
+| `CHARTER.md` | Markdown | Team members, project goals, individual roles |
 | `Walmart Case.pdf` | PDF | Background information and case study |
+| `DS2002_Midterm_Project_Brief.md` | Markdown | Original project instructions and requirements |
+| `Midterm Project Presentation.pptx` | PowerPoint | Presentation slides covering data quality issues, the data cleaning pipeline, key graphs and findings, recommendations, and what broke during the project|
 | `walmart_transactions.csv` | CSV | Transaction-level POS records |
 | `store_locations.csv` | CSV | Florida Walmart store metadata |
 | `product_catalog.csv` | CSV | Product and SKU reference information |
 | `distribution_centers.csv` | CSV | Distribution center information |
 | `inventory_and_sales.db` | SQLite | SQLite database containing daily sales summaries and inventory levels |
-| `team_notebook.ipynb` |Jupyter Notebook | Main Jupyter Notebook containing data cleaning, API integration, analysis, visualizations, and findings |  
+| `team_notebook.ipynb` | Jupyter Notebook | Main Jupyter Notebook containing data cleaning, weather API integration, analysis, visualizations, findings, and reflections |  
+| `2026-10-23 — Midterm Checkpoint — Lab.ipynb` | Jupyter Notebook | Midterm project checkpoint and progress documentation |
+| `2026-10-30 — Midterm Progress — Lab.ipynb` | Jupyter Notebook | Midterm project progress updates, including answers to analytical questions Q1-Q3 |
+| `scratch/` | Folder | Lecture and studio notebooks related to the midterm project |
 
 ## How to Run
 1. Clone or download this repository.
