@@ -69,8 +69,8 @@ walmart-hurricane-project/
 
 | File | Format | Description |
 |---|---|---|
-| `README.md` | Markdown | Project overview, analytical and reflection questions, repository structure, file descriptions, instructions for running 'team_notebook.ipynb', and contributors |
-| `CHARTER.md` | Markdown | Team members, project goals, individual roles |
+| `README.md` | Markdown | Project overview, analytical and reflection questions, repository structure, file descriptions, instructions for running `team_notebook.ipynb`, and contributors |
+| `CHARTER.md` | Markdown | Team members, project goals, and individual roles |
 | `Walmart Case.pdf` | PDF | Background information and case study |
 | `DS2002_Midterm_Project_Brief.md` | Markdown | Original project instructions and requirements |
 | `Midterm Project Presentation.pptx` | PowerPoint | Presentation slides covering data quality issues, the data cleaning pipeline, key graphs and findings, recommendations, and what broke during the project|
