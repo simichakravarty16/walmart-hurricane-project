@@ -1,9 +1,9 @@
 # walmart-hurricane-project
 
 ## Project Overview
-This project investigates how Hurricane Helene impacted transaction patterns and consumer behavior across various Walmart locations in Florida. Using transaction records, product catalog information, store locations, inventory data, and historical weather data, we examine changes in purchasing before and during the hurricane.
+This project investigates how Hurricane Helene (Steptember 26, 2024) impacted transaction patterns and consumer behavior across various Walmart locations in Florida. Using transaction records, product catalog information, store locations, distribution centers, inventory data, and historical weather data, we examine changes in purchasing patterns before and during the hurricane.
 
-Our goal was to identify the product categories that experienced the greatest increases in demand during surge periods, investigated how weather conditions influenced purchasing behaviors, and evaluated whether sales increases are the result of genuine demand or data-quality issues. In order to do this, we needed to clean the data by standardizing SKUs and category names, as well as join weather data using an API call.
+Our goal was to identify the product categories that experienced the greatest increases in demand during the surge period (September 19-25) compared to the baseline period (September 1-15), investigated how weather conditions influenced purchasing behaviors, and evaluated whether increases in sales reflected genuine demand or data quality issues. To accomplish this, we cleaned and standardized the data, including SKUs and product category names, and integrated historical weather data using an API.
 
 ## Analysis Questions
 This project investigates five key questions surrounding Walmart's sales and supply chain dynamics before Hurricane Helene.
