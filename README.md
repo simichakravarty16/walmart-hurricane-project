@@ -69,6 +69,7 @@ walmart-hurricane-project/
 
 | File | Format | Description |
 |---|---|---|
+| `README.md` | Markdown | Project overview, analytical and reflection questions, repository structure, file descriptions, instructions for running 'team_notebook.ipynb', and contributors |
 | `CHARTER.md` | Markdown | Team members, project goals, individual roles |
 | `Walmart Case.pdf` | PDF | Background information and case study |
 | `DS2002_Midterm_Project_Brief.md` | Markdown | Original project instructions and requirements |
