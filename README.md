@@ -88,8 +88,9 @@ walmart-hurricane-project/
 1. Clone or download this repository.
 2. Open `notebooks/team_notebook.ipynb` in Google Colab or Jupyter Notebook.
 3. Ensure the `data/` directory is accessible to the notebook.
-4. Install the required Python libraries if they are not already available.
-5. Run the notebook cells sequentially to reproduce the data-cleaning process, weather data integration, statistical analyses, and visualizations.
+4. If using Google Colab, download all four CSV files and the SQLite database file from the `data/` directory and upload them to the Colab environment. 
+5. Install the required Python libraries if they are not already available.
+6. Run the notebook cells sequentially to reproduce the data-cleaning process, weather data integration, statistical analyses, and visualizations.
 
 Note: Historical weather data is retrieved from Open-Meteo API, so an internet connection is required
 
