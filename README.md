@@ -40,11 +40,11 @@ The analysis incorporates the following datasets:
 ```text
 walmart-hurricane-project/
 │
-├── README.md
 ├── CHARTER.md
-├── Walmart Case.pdf
 ├── DS2002_Midterm_Project_Brief.md
 ├── Midterm Project Presentation.pptx
+├── README.md
+├── Walmart Case.pdf
 │
 ├── data/
 │   ├── walmart_transactions.csv
