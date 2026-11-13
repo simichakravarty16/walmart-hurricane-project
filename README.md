@@ -55,13 +55,13 @@ walmart-hurricane-project/
 │
 └── notebooks/
     └── team_notebook.ipynb
-    └── 2026-10-23 — Midterm Checkpoint — Lab.ipynb
-    └── 2026-10-30 — Midterm Progress — Lab.ipynb
     └── scratch/
         └── 2026-10-19 — Midterm Kickoff and Team Formation — Lecture.ipynb
         └── 2026-10-21 — Weather API Join — Studio.ipynb
+        └── 2026-10-23 — Midterm Checkpoint — Lab.ipynb
         └── 2026-10-26 — Midterm Clinic Cleaning and Joins — Lecture.ipynb
         └── 2026-10-28 — Midterm Clinic Analysis and Charts — Studio.ipynb
+        └── 2026-10-30 — Midterm Progress — Lab.ipynb
         └── 2026-11-04 — Reflection What Broke What Mattered — Studio.ipynb
 ```
 
@@ -80,9 +80,7 @@ walmart-hurricane-project/
 | `distribution_centers.csv` | CSV | Distribution center information |
 | `inventory_and_sales.db` | SQLite | SQLite database containing daily sales summaries and inventory levels |
 | `team_notebook.ipynb` | Jupyter Notebook | Main Jupyter Notebook containing data cleaning, weather API integration, analysis, visualizations, findings, and reflections |  
-| `2026-10-23 — Midterm Checkpoint — Lab.ipynb` | Jupyter Notebook | Midterm project checkpoint and progress documentation |
-| `2026-10-30 — Midterm Progress — Lab.ipynb` | Jupyter Notebook | Midterm project progress updates, including answers to analytical questions Q1-Q3 |
-| `scratch/` | Folder | Lecture and studio notebooks related to the midterm project |
+| `scratch/` | Folder | Lecture, studio, and lab notebooks related to the midterm project |
 
 ## How to Run
 1. Clone or download this repository.
